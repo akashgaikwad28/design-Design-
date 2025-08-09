@@ -18,23 +18,23 @@ This system follows a modular architecture with clear separation between:
 ```
 document_Editor/
 ├── interfaces/
-│   ├── DocumentElement.java    # Interface for document elements
-│   └── Persistence.java        # Interface for storage mechanisms
+│   ├── DocumentElement.java    // Interface for document elements
+│   └── Persistence.java        // Interface for storage mechanisms
 ├── elements/
-│   ├── TextElement.java        # Text content element
-│   ├── ImageElement.java       # Image content element
-│   ├── NewLineElement.java     # Line break element
-│   └── TabSpaceElement.java    # Tab space element
+│   ├── TextElement.java        // Text content element
+│   ├── ImageElement.java       // Image content element
+│   ├── NewLineElement.java     //  Line break element
+│   └── TabSpaceElement.java    //  Tab space element
 ├── models/
-│   └── Document.java           # Document model class
+│   └── Document.java           // Document model class
 ├── storage/
-│   ├── FileStorage.java        # File-based persistence
-│   └── DBStorage.java          # Database persistence (placeholder)
+│   ├── FileStorage.java        // File-based persistence
+│   └── DBStorage.java          // Database persistence (placeholder)
 ├── controllers/
-│   └── DocumentEditor.java     # Main controller class
+│   └── DocumentEditor.java     // Main controller class
 ├── client/
-│   └── DocumentEditorClient.java # Demo application
-└── README.md                   # This file
+│   └── DocumentEditorClient.java // Demo application
+└── README.md                   // This file
 ```
 
 ## Design Patterns Used
